@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".FullscreenActivity">
+
+
+    <ImageView
+        android:id="@+id/imgUpArr"
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:src="@drawable/ic_uparrow"
+        android:layout_above="@+id/view"
+      android:layout_marginBottom="-50dp"
+         />
+    <ImageView
+        android:id="@+id/imgDownArr"
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:layout_marginLeft="98dp"
+        android:src="@drawable/ic_downarrow"
+        android:layout_below="@+id/view"
+        />
+    <com.gigigo.asv.imageedit.EditableImageView
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_bicho"
+        android:id="@+id/view" />
+
+
+    <com.gigigo.asv.imageedit.EditableImageView
+
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_bicho" />
+    <!--<ImageView-->
+    <!--android:src="@drawable/ic_cabeza"-->
+    <!--android:background="@drawable/ic_cabeza"-->
+    <!--android:layout_width="350dp"-->
+    <!--android:layout_height="350dp"-->
+    <!--android:layout_centerInParent="true"  />-->
+    <!--<com.gigigo.asv.imageedit.EditableImageView-->
+    <!--android:id="@+id/imgOjo"-->
+    <!--android:minHeight="350dp"-->
+    <!--android:minWidth="350dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:src="@drawable/ic_xoxoojo"-->
+
+    <!--android:layout_below="@+id/imgBoca"-->
+    <!--android:layout_centerHorizontal="true" />-->
+
+
+    <!--<com.gigigo.asv.imageedit.EditableImageView-->
+    <!--android:id="@+id/imgBoca"-->
+    <!--android:minHeight="350dp"-->
+    <!--android:minWidth="350dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:src="@drawable/ic_boca"-->
+
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:layout_marginLeft="76dp" />-->
+
+    <!--<com.gigigo.asv.imageedit.EditableImageView-->
+    <!--android:id="@+id/imgBigote"-->
+    <!--android:minHeight="350dp"-->
+    <!--android:minWidth="350dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:src="@drawable/ic_bigotes"-->
+
+    <!--android:layout_centerInParent="true"/>-->
+
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/ParentVisor"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/ImgH"-->
+    <!--android:src="@drawable/ic_uparrow"-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:layout_gravity="top|left" />-->
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/ImgVisor"-->
+    <!--android:src="@drawable/ic_bicho"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp" />-->
+    <!--</FrameLayout>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/ImgW"-->
+    <!--android:src="@drawable/ic_downarrow"-->
+    <!--android:layout_gravity="bottom|right"-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="48dp" />-->
+    <!--</FrameLayout>-->
+
+
+</RelativeLayout>
